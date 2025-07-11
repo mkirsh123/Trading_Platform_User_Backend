@@ -21,10 +21,7 @@ app.listen(PORT, () => {
 
 app.use(
   cors({
-    origin: ["https://686fa1de6cf557b380a62ec9--courageous-tanuki-f990a5.netlify.app/",
-            "https://686fa1de6cf557b380a62ec9--courageous-tanuki-f990a5.netlify.app/login",
-            "https://686fa1de6cf557b380a62ec9--courageous-tanuki-f990a5.netlify.app/signup"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: "https://courageous-tanuki-f990a5.netlify.app",
     credentials: true,
   })
 );
